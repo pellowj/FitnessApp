@@ -1,0 +1,11 @@
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\bin\Debug\netcoreapp2.0\FitnessApp.deps.json
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\bin\Debug\netcoreapp2.0\FitnessApp.runtimeconfig.json
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\bin\Debug\netcoreapp2.0\FitnessApp.runtimeconfig.dev.json
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\bin\Debug\netcoreapp2.0\FitnessApp.dll
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\bin\Debug\netcoreapp2.0\FitnessApp.pdb
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\obj\Debug\netcoreapp2.0\FitnessApp.csprojResolveAssemblyReference.cache
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\obj\Debug\netcoreapp2.0\FitnessApp.csproj.CoreCompileInputs.cache
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\obj\Debug\netcoreapp2.0\FitnessApp.AssemblyInfoInputs.cache
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\obj\Debug\netcoreapp2.0\FitnessApp.AssemblyInfo.cs
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\obj\Debug\netcoreapp2.0\FitnessApp.dll
+C:\Users\pello_000\Desktop\TeamTreeHouse\FitnessApp\obj\Debug\netcoreapp2.0\FitnessApp.pdb
