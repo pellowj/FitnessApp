@@ -6,22 +6,63 @@ namespace FitnessApp
     {
         static void Main(string[] args)
         {
-            // Prompt the user for minutes exercised
-            Console.Write("Enter how many minutes you excercised:  ");
+            var runningTotal = 0.0;
 
-            // Add minutes exercised to total
+            while (true)
+            {
+                // Prompt the user for minutes exercised
+                Console.Write("Enter how many minutes you excercised or type \"quit\" to exit:  ");
+                var entry = Console.ReadLine();
 
-            // Display total minutes exercised to the screen
+                if (entry.ToLower() == "quit")
+                {
+                    break;
+                }
 
-            // Repeat until the user quits
+                try
+                {
+                    var minutes = double.Parse(entry);
 
+                    if (minutes <= 0)
+                    {
+                        Console.WriteLine(minutes + " is not an acceptable value.");
+                        continue;
+                    }
+                    else if (minutes <= 10)
+                    {
+                        Console.WriteLine("Better than nothing, am I right?");
+                    }
+                    else if (minutes <= 30)
+                    {
+                        Console.WriteLine("Way to go hot stuff!");
+                    }
+                    else if (minutes <= 60)
+                    {
+                        Console.WriteLine("You must be a ninja warrior in training!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Okay, now you're just showing off!");
+                    }
 
+                    // Add minutes exercised to total
+                    runningTotal += minutes;
 
+                    // Display total minutes exercised to the screen
+                    Console.WriteLine("You've exercised for " + runningTotal + " minutes");
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("That is not valid input.");
+                    continue;
+                }
 
+                // Repeat until the user quits
+            }
+            Console.WriteLine("Goodbye");
 
             // Keep console window open for testing
-            Console.WriteLine("Press any key to exit");
-            Console.ReadKey();
+
         }
     }
 }
